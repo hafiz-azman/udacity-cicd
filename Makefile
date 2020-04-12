@@ -3,4 +3,4 @@ install:
 		pip install -r requirements.txt
 		
 lint:
-	python --disable=R,C app.py
+	pylint --disable=R,C app.py
